@@ -1,0 +1,1 @@
+<?php echo 'memory_limit: ' . ini_get('memory_limit');  echo 'date1 = ' . date('Y-m-d H:i:s', 1369197999) .       'date2 = ' . date('Y-m-d H:i:s', 1369114173) .      'diff = '  . (time() - 1369197999);  phpinfo(); 
