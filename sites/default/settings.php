@@ -215,11 +215,15 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'openfolio',
-      'username' => 'openfolio',
-      'password' => 'openfolio929',
-      'host' => 'localhost',
-      'port' => '',
+//      'database' => 'openfolio',
+      'database' => 'drucloud',
+//      'username' => 'openfolio',
+      'username' => 'drucloud',
+//      'password' => 'openfolio929',
+      'password' => 'passw0rd',
+//      'host' => 'localhost',
+      'host' => 'cm12plgx0tonvzw.cv3ydyyhfeun.rds.cn-north-1.amazonaws.com.cn',
+      'port' => '3306',
       'driver' => 'mysql',
       'prefix' => '',
     ),
